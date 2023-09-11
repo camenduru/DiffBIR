@@ -124,6 +124,7 @@ block = gr.Blocks().queue()
 with block:
     with gr.Row():
         gr.Markdown("## DiffBIR")
+        gr.Markdown("Code: https://github.com/XPixelGroup/DiffBIR Paper: https://arxiv.org/abs/2308.15070 Page: https://0x3f3f3f3fun.github.io/projects/diffbir/")
     with gr.Row():
         with gr.Column():
             input_image = gr.Image(source="upload", type="pil")
