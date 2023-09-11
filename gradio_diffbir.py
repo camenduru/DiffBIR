@@ -125,17 +125,17 @@ with block:
     with gr.Row():
         gr.Markdown(
             """
-            🐣 Please follow me for new updates https://twitter.com/camenduru <br>
-            🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br>
-            🥳 Please join my patreon community https://patreon.com/camenduru
-            """
-        )
-        gr.Markdown(
-            """
             ## DiffBIR
             🧬 Code: https://github.com/XPixelGroup/DiffBIR <br>
             📄 Paper: https://arxiv.org/abs/2308.15070 <br>
             🌐 Page: https://0x3f3f3f3fun.github.io/projects/diffbir/
+            """
+        )
+        gr.Markdown(
+            """
+            🐣 Please follow me for new updates https://twitter.com/camenduru <br>
+            🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br>
+            🥳 Please join my patreon community https://patreon.com/camenduru
             """
         )
     with gr.Row():
