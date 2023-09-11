@@ -131,7 +131,6 @@ with block:
             Page: https://0x3f3f3f3fun.github.io/projects/diffbir/
             """
         )
-        gr.Markdown(")
     with gr.Row():
         with gr.Column():
             input_image = gr.Image(source="upload", type="pil")
