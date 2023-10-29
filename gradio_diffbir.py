@@ -184,4 +184,4 @@ with block:
     ]
     run_button.click(fn=process, inputs=inputs, outputs=[result_gallery])
 
-block.launch()
+block.launch(share=False, inline=False)
